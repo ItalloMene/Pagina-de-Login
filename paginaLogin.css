@@ -85,6 +85,10 @@ form p a {
     color: var(--color5);
 }
 
+form p a:hover {
+    color: var(--cor3);
+}
+
 form button  {
     font-size: 15px;
     width: 300px;
