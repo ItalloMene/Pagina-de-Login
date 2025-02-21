@@ -7,25 +7,26 @@
 }
 
 :root {
-    --cor1:#68b2f8;
-    --cor2:#506ee5;
-    --cor3:#7037cd;
-    --cor4:#651f71;
-    --cor5:#1d0c20;
+    --cor1: #234d20;
+    --cor2: #36802d;
+    --cor3: #77ab59;
+    --cor4: #c9df8a;
+    --cor5: #f0f7da;
 }
 
 body{
-    background-image: linear-gradient(to right, var(--cor2),var(--cor3),var(--cor4))
+    background-image: linear-gradient(to bottom, var(--cor2),var(--cor3),var(--cor4))
 }
 
 div{
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));
-    padding:10px;
+    background-image: linear-gradient(to top, var(--cor2), var(--cor3));
+    padding:5px;
     border-radius: 10px;
     width: 500px;
     margin: auto;
     margin-top: 100px;
-    box-shadow: 3px 3px 3px var(--cor5)
+    margin-bottom: 100px;
+    box-shadow: 3px 3px 3px var(--cor1)
 }
 
 form {
@@ -38,24 +39,24 @@ form {
 
 form h1 {
     font-size: 30px;
-    color: var(--cor1);
+    color: var(--cor5);
     text-align: center;
     margin-top: 30px;
-    text-shadow: 3px 3px 3px var(--cor5);
+    text-shadow: 3px 3px 3px var(--cor1);
 }
 
 form label {
     font-size: 20px;
-    color: var(--cor1);
-    text-shadow: 3px 3px 3px var(--cor5);
+    color: var(--cor5);
+    text-shadow: 3px 3px 3px var(--cor1);
 }
 
 form input {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     width: 300px;
     height: 30px;
     border-radius: 5px;
-    border: var(--cor5) solid 2px;
+    border: var(--cor1) solid 2px;
 }
 
 form input::placeholder {
@@ -71,18 +72,18 @@ form input:hover{
 form p {
     margin-top: 20px;
     font-size: 20px;
-    color: var(--cor1);
+    color: var(--cor5);
     text-align: center;
-    text-shadow: 3px 3px 3px var(--cor5);
+    text-shadow: 3px 3px 3px var(--cor1);
 }
 
 form p a {
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor5);
 }
 
 form p a:hover {
-    color: var(--cor3);
+    color: var(--cor4);
 }
 
 form button  {
@@ -96,11 +97,11 @@ form button  {
     border: var(--cor5)
     solid 2px;
     background-color: var(--cor2);
-    color:var(--cor1);
-    text-shadow: 3px 2px 2px var(--cor5);
+    color:var(--cor4);
+    text-shadow: 3px 2px 2px var(--cor1);
 }
 
 form button:hover {
     background-color: var(--cor3);
-    color: var(--cor1);
+    color: var(--cor5);
 }
