@@ -86,7 +86,7 @@ form p a {
 }
 
 form p a:hover {
-    color: var(--cor3);
+    color: var(--color4);
 }
 
 form button  {
@@ -105,5 +105,6 @@ form button  {
 
 form button:hover {
     background-color: var(--color3);
-    color: var(--color5);
+    color: var(--color4);
+    text-shadow: 3px 2px 2px var(--color2);
 }

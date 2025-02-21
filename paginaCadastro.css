@@ -97,11 +97,12 @@ form button  {
     border: var(--cor5)
     solid 2px;
     background-color: var(--cor2);
-    color:var(--cor4);
+    color:var(--cor5);
     text-shadow: 3px 2px 2px var(--cor1);
 }
 
 form button:hover {
     background-color: var(--cor3);
-    color: var(--cor5);
+    color: var(--cor4);
+    text-shadow: 3px 2px 2px var(--cor2);
 }
